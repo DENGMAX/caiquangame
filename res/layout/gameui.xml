@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#50b7c1"
+    android:orientation="vertical" >
+    <!-- 显示出拳的是谁-->
+    <TextView
+        android:id="@+id/showSelectPeople"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:background="#771198" />
+    <!-- 出拳 结果 -->
+ <!-- // -->
+    <!-- 显示出拳结果的部分 -->
+    <LinearLayout
+        android:id="@+id/showJianDaoShiTou"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+>
+          <TextView
+        android:id="@+id/Chuquan"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:layout_weight="0.97"
+        android:background="#77ac98"
+        android:gravity="center_vertical"
+        android:textColor="#d71345"
+        android:textSize="50px" 
+        />
+          <LinearLayout 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/VS">
+              <!-- 电脑方 -->
+              <TextView
+                  android:id="@+id/computerWin"
+                  android:layout_width="156dp"
+                  android:layout_height="200dp"
+                  android:layout_marginTop="-10dp"
+                  android:background="#009999"
+                  android:text="@string/diannao" 
+                  android:gravity="center"/>
+               <!-- 显示Vs -->
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20dp"
+                  android:text="@string/VS" />
+               <!-- 玩家方 -->
+
+              <TextView
+                  android:id="@+id/UserWin"
+                  android:layout_width="187dp"
+                  android:layout_height="fill_parent"
+                  android:background="#CC6699"
+                  android:gravity="center"
+                  android:text="@string/juese" />
+
+          </LinearLayout>
+        </LinearLayout>
+ <!-- // -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/diannaoprogress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/diannaoprogress" />
+        <ProgressBar
+            android:id="@+id/diannaoprogressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/wanjiaprogress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wanjiaprogress" />
+        <ProgressBar
+            android:id="@+id/wanjiaprogressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 剪刀石头布 -->
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/jiadao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jiandao" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/shitou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shitou" />
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bu" />
+
+    </LinearLayout>
+
+</LinearLayout>

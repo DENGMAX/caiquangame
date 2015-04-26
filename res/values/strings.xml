@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">石头剪刀布</string>
+    <string name="beginGame">开始游戏</string>
+    <string name="SelectPeople">请选择你的角色：</string>
+    <string name="Liubei">刘备</string>
+    <string name="Zhangfei">张飞</string>
+    <string name="Guanyu">关羽</string>
+    <string name="introduction">*****************石头剪刀布*****************"\n"
+        						1.首先选择你的角色 (也可自己输入) "\n"
+        						2.亮出你的石头剪刀布→ - - "\n"
+        </string>
+        <string name="peopleSelext">请选择人物</string>
+        <string name="name">刘备</string>
+        <string name="jiandao">剪刀</string>
+        <string name="shitou">石头</string>
+        <string name="bu">  布  </string>
+        <string name="diannaoprogress">电脑</string>
+        <string name="diannao">手机胜</string>
+         <string name="wanjiaprogress">  玩家</string>
+          <string name="VS">VS</string>
+            <string name="juese">我方胜</string>
+            <string name="gengxin">更新情况</string>
+            <string name="UpData">
+——————GuessGame测试版—————————"\n"
+1.增加了一定局数(20局)决定胜负的功能"\n"
+2.增加了到一定局数按钮全部失效的功能"\n"
+3.调整了按钮布的大小"\n"
+4.增加了进度条，可以让你实时知道谁领先
+——————————————————————"\n"
+
+</string>
+</resources>
